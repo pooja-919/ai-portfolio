@@ -5,3 +5,6 @@ tiktoken
 python-dotenv
 langchain-community
 pypdf
+langchain_openai
+sentence-transformers
+langchain-ollama

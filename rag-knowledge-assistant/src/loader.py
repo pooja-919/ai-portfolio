@@ -6,7 +6,7 @@ def load_documents(folder_path):
     textDocs = []
     for file in os.listdir(folder_path):
         if file.endswith(".pdf"): #if textfiles present
-            loader = PyPDFLoader (os.path.join(folder_path, file)) #
+            loader = PyPDFLoader (os.path.join(folder_path, file)) 
             textDocs.extend(loader.lazy_load()) #Lazy load: doesn't load all the documents into memory at once
     return textDocs
 
