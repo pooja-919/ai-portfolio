@@ -33,3 +33,5 @@ Except from the requirements.txt(pip install -r requirements.txt in terminal), a
     2. Restart PowerShell / terminal after installation (important).  
     3. verify installation: ollama --version
     4. download model llama3: ollama pull llama3
+
+Note: run Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass to activate venv(virtual env) in powershell
