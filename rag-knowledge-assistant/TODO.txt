@@ -1,0 +1,10 @@
+#todo:
+1. remove #remove statements(used for debugging) from retriever.py
+2. check context performance(if both docs are being used) when using UI; checked that retreiver.py includes both files; not sure
+why via UI only one doc mentioned(for summary question for example)
+3. check for three cases:
+    a. context present
+    b. context absent
+    c. null query
+4. evaluate_rag.py to complete
+5. check for 

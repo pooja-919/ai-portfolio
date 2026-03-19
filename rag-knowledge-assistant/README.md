@@ -5,6 +5,11 @@ The system retrieves relevant context and generates grounded answers using an LL
         User: What are the causes of shipment delays?
         Response: Weather disruptions and customs inspections are common causes.
 
+Backend: API
+frontend: Gradio
+AI system: RAG
+
+Application flow:UI calls API calls RAG geneartes Answer sent to UI
 
 Actions:
 1. Load documents
