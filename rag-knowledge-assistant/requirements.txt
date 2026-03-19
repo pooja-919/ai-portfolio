@@ -8,3 +8,5 @@ pypdf
 langchain_openai
 sentence-transformers
 langchain-ollama
+fastapi uvicorn
+ragas

@@ -1,7 +1,9 @@
 PROJECT: Build an AI system(RAG) with your context, not just general LLM knowledge.
-Example:
-User: What are the causes of shipment delays?
-Response: Weather disruptions and customs inspections are common causes.
+Build Retrieval-Augmented Generation system using sentence-transformers for embeddings and a vector database for semantic search. Exposed it via FastAPI and build a Gradio-based UI for interaction.
+The system retrieves relevant context and generates grounded answers using an LLM, also return source chunks to improve transparency
+    Example:
+        User: What are the causes of shipment delays?
+        Response: Weather disruptions and customs inspections are common causes.
 
 
 Actions:
@@ -12,7 +14,7 @@ Actions:
 5. Retrieve relevant chunks for a query
 6. Send chunks + question to LLM
 7. Return grounded answer
-8. Expose as API
+8. Expose as API(run uvicorn api:app --reload to fireup the RAG system)
 
 
 
