@@ -7,4 +7,4 @@ why via UI only one doc mentioned(for summary question for example)
     b. context absent
     c. null query
 4. evaluate_rag.py to complete
-5. check for 
+5. check for other types of documents like tweet etc
