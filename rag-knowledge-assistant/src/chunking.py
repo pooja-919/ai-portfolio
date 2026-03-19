@@ -3,8 +3,14 @@ from loader import load_documents
 
 def split_documents(documents):
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size=500,
-        chunk_overlap=100
+        chunk_size=1000,
+        chunk_overlap=500,
+        separators=[
+            "\n\n",   # paragraph
+            "\n",     # line
+            ". ",     # sentence
+            " ",      # word
+        ]
     )
     chunks = splitter.split_documents(documents)
     return chunks
